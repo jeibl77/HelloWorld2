@@ -4,6 +4,15 @@
 
 using namespace std;
 
+static void printVec(const vector<int>& vec)
+{
+    for(auto i : vec)
+    {
+        cout << i;
+    }
+    cout << endl;
+}
+
 int main()
 {
     vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
@@ -26,6 +35,9 @@ int main()
         cout << i;
     }
     cout << endl;
+=======
+    printVec(v);
+>>>>>>> printVector
 
     return 0;
 
