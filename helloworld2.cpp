@@ -29,15 +29,7 @@ int main()
     v.push_back(1);
     v.push_back(2);
 
-    for(auto i : v)
-    {
-        // comment main
-        cout << i;
-    }
-    cout << endl;
-=======
     printVec(v);
->>>>>>> printVector
 
     return 0;
 
