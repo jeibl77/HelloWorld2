@@ -22,6 +22,7 @@ int main()
 
     for(auto i : v)
     {
+        // comment main
         cout << i;
     }
     cout << endl;
