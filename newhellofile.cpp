@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    vector<string> msg {"NewHello", "NewC++", "World", "from", "VS Code", "and the C++ extension!"};
+    vector<string> msg {"NewHello", "NewC++", "NextWorld", "from", "VS Code", "and the C++ extension!"};
 
     for (const string& word : msg)
     {
@@ -28,5 +28,5 @@ int main()
 
     return 0;
 
-    // v2 comment
+    // v2 comment comment
 }
